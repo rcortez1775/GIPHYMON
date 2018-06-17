@@ -1,0 +1,72 @@
+body {
+    font: 18px arial, sans-serif;
+    background: url("../images/pokepaper.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+form {
+    float: right;
+    width: 30%;
+    padding: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+input[type="text"] {
+    width: 100%;
+    height: 30px;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+button,
+input[type="submit"] {
+    padding: 5px 20px;
+    margin: 0 10px 10px 0;
+    font-size: 18px;
+    color: rgb(2, 2, 2);
+    cursor: pointer;
+    background: #f9faf9;
+    border: 2px solid rgb(6, 54, 214);
+    border-radius: 5px;
+    box-shadow: 2px 2px 3px #bbb;
+}
+
+button:hover,
+input[type="submit"]:hover {
+    background: #334e4d;
+}
+
+button.active {
+    background: #334e4d;
+}
+
+.title {
+    text-align: center;
+    font-family: 'Syncopate', sans-serif;
+    font-size: 50px;
+    margin-bottom: 0px;
+}
+
+.pokeball {
+    height: 50px;
+    width: 50px;
+}
+
+.rules {
+    text-align: center;
+    font-family: 'Syncopate', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.pika {
+    height: 30px;
+    width: 30px;
+}
